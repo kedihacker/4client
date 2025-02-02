@@ -1,4 +1,3 @@
-console.log("test from node");
-function Susmaster(x: string):number{
-    return x.length + 1
-}
+fetch("https://example.com").then((v ) =>{
+    v.blob()
+})
